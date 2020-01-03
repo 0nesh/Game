@@ -1,0 +1,71 @@
+body {
+	background-color: #EEE;
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+a {
+	text-decoration: none;
+}
+#container {
+	background-color: white;
+}
+#header {
+	background-color: #66ccff;
+	color: white;
+	text-align: center;
+}
+#content {
+	padding: 10px;
+}
+#nav {
+	width: 180px;	
+	float: left;
+}
+#nav .Navigation {
+	border: 1px solid #EEE;
+}
+#nav .Navigation ul {
+	list-style-type: none;
+	margin-left: 10px;
+	padding: 0px;	
+}
+#nav .Navigation li {
+	margin-bottom: 10px;
+}
+#nav .Navigation li:hover {
+	transform: scale(1.05,1.2);
+}
+#nav .Navigation .selected {
+	font-weight: bold;
+}
+#nav .gamePlays {
+	margin-top: 10px;
+	border: 1px solid #EEE;
+}
+#nav .gamePlays .gameView {
+	padding-left: 10px;
+	border: 1px solid #9d9df9;
+}
+#nav .gamePlays .gameView img {
+	margin-top: 5px;
+}
+#nav .gamePlays .gameView a {
+	margin-left: 5px;
+}
+#nav .gamePlays .gameView h6 {
+	margin-top: 1px;
+}
+
+
+#main {
+	width: 900px;
+	float: right;
+}
+#main .showGame img {
+	margin-top: 10px;
+	border-bottom: 1px solid #EEE;
+}
+#footer {
+	clear: both;
+}
